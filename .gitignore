@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environments
+.env
+.env.*
+
+# Documents generated locally
+*.docx
+*.doc
+*.pdf
+
+# Data heavy artifacts
+# Keep only samples and extracted subsets in data/
+*.csv
+*.parquet
+*.zip
+
+# Git
+.git/
+
+# Editors
+.vscode/
