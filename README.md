@@ -18,22 +18,43 @@ Le projet vise à mettre en place un MVP évolutif, structuré par jalons, qui s
 
 ## Structure du dépôt
 
+```text
 urbanpulse/
 ├── README.md
 ├── charte-projet.md
 ├── registre-sources.md
+├── .gitignore
 ├── docs/
+│   ├── README.md
 │   ├── J0-kickoff/
+│   │   └── README.md
 │   ├── J1-cadrage/
+│   │   └── README.md
 │   ├── J2-pilotage/
+│   │   └── README.md
 │   ├── J3-gouvernance/
+│   │   └── README.md
 │   ├── J4-plateforme/
+│   │   └── README.md
 │   └── J5-ia-restitution/
+│       └── README.md
 ├── data/
+│   └── .gitkeep
 ├── src/
+│   └── .gitkeep
 ├── dashboards/
-├── preuves/
-└── .gitignore
+│   └── .gitkeep
+└── preuves/
+    └── .gitkeep
+```
+
+## Règles de structure
+
+- Les dossiers de jalons sont regroupés dans le dossier [docs](docs).
+- Les fichiers de code et de traitements sont dans [src](src).
+- Les données d’extraction et échantillons sont dans [data](data).
+- Les livrables visuels et tableaux de bord sont dans [dashboards](dashboards).
+- Les captures, preuves et documents justificatifs sont dans [preuves](preuves).
 
 ## État du projet
 
