@@ -63,9 +63,3 @@ urbanpulse/
 - Sources de données identifiées
 - Structure du dépôt mise en place
 
-## Prochaines étapes
-
-1. Formaliser le cadrage projet
-2. Compléter le registre des sources
-3. Définir la stratégie architecture et les jalons
-4. Démarrer le premier livrable MVP
